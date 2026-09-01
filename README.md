@@ -1,6 +1,6 @@
 # Onda Nativa
 
-Página institucional da Onda Nativa, uma iniciativa Tribo Social.
+Página institucional da Onda Nativa, uma iniciativa Pulso Social.
 
 ## Publicação
 

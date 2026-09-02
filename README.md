@@ -1,6 +1,6 @@
 # Onda Nativa
 
-Página institucional da Onda Nativa, uma iniciativa Pulso Social.
+Página institucional da Onda Nativa, agência de influencer marketing que aproxima marcas e creators. Uma iniciativa Pulso Social.
 
 ## Publicação
 

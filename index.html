@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="pt">
+<html lang="pt-PT">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -33,8 +33,13 @@
 
     <title>Onda Nativa · Pulso Social</title>
     <link rel="canonical" href="https://ondanativa.com/" />
+    <link rel="alternate" hreflang="pt" href="https://ondanativa.com/" />
+    <link rel="alternate" hreflang="es" href="https://ondanativa.com/es/" />
+    <link rel="alternate" hreflang="en" href="https://ondanativa.com/en/" />
+    <link rel="alternate" hreflang="x-default" href="https://ondanativa.com/" />
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="language.js"></script>
   </head>
 
   <body>
@@ -58,6 +63,14 @@
           <a href="#como-funciona">Como funciona</a>
           <a href="#equipa">Equipa</a>
         </nav>
+
+        <div class="language-switcher" aria-label="Escolher idioma">
+          <a href="./" data-language="pt" lang="pt" aria-current="page">PT</a>
+          <span aria-hidden="true">·</span>
+          <a href="es/" data-language="es" lang="es">ES</a>
+          <span aria-hidden="true">·</span>
+          <a href="en/" data-language="en" lang="en">EN</a>
+        </div>
 
         <a class="header-contact" href="mailto:carlos@ondanativa.com">Falar connosco</a>
       </header>

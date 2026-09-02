@@ -114,6 +114,28 @@ a {
   color: var(--ink);
 }
 
+.language-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.34rem;
+  margin-right: clamp(0.8rem, 1.7vw, 1.6rem);
+  color: rgba(7, 62, 72, 0.35);
+  font-size: 0.66rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.language-switcher a {
+  color: var(--ink-soft);
+  text-decoration: none;
+  transition: color 160ms ease;
+}
+
+.language-switcher a:hover,
+.language-switcher a[aria-current="page"] {
+  color: var(--ink);
+}
+
 .brand {
   display: inline-flex;
   align-items: center;
@@ -1040,7 +1062,7 @@ a:focus-visible {
   }
 
   .header-contact {
-    font-size: 0.65rem;
+    display: none;
   }
 
   .hero-actions,

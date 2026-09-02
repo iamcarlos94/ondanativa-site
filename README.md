@@ -8,7 +8,9 @@ O site é publicado automaticamente no GitHub Pages sempre que a branch `main` r
 
 ## Conteúdo
 
-- `index.html`: texto e estrutura da página
+- `index.html`: versão principal em português
+- `es/index.html` e `en/index.html`: versões completas em espanhol e inglês
+- `language.js`: seleção automática pelo idioma do navegador e preferência manual
 - `styles.css`: identidade visual e apresentação responsiva
 - `assets/`: imagens e ícone do site
 

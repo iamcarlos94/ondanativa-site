@@ -22,4 +22,5 @@ Os ficheiros finais de marca estão em `assets/brand/`:
 
 - `pulso-social-google-workspace-320x132.gif`: logotipo horizontal pronto para o Google Workspace (menos de 30 KB)
 - `onda-nativa-gmail-profile-1024x1024.png`: imagem de perfil pronta para o Gmail e Conta Google
+- `onda-nativa-profile-black-white-1024.png`: variante monocromática, preta sobre fundo branco
 - ficheiros `master` e `1600x660`: versões de alta resolução para futuras utilizações

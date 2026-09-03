@@ -816,6 +816,12 @@ h1 {
   text-decoration: none;
 }
 
+.member-links {
+  display: grid;
+  gap: 0.7rem;
+  justify-items: start;
+}
+
 .contact-section {
   position: relative;
   width: calc(100% - (2 * var(--page-padding)));
@@ -854,6 +860,7 @@ h1 {
   position: relative;
   z-index: 2;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 0.8rem;
   margin-top: 2.5rem;
@@ -914,6 +921,15 @@ h1 {
   display: grid;
   gap: 0.45rem;
   justify-items: end;
+}
+
+.footer-meta a {
+  color: inherit;
+  text-underline-offset: 0.22em;
+}
+
+.footer-meta a:hover {
+  color: var(--ink);
 }
 
 a:focus-visible {
